@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://localhost/tp-php/05-formulaire.php -->
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+
+    <title>Formulaire produit</title>
+
+</head>
+
+<body>
+
+    <h1>Ajouter un produit</h1>
+
+    <form method="POST">
+
+        <div>
+
+            <label for="produit">
+                Nom du produit :
+            </label>
+
+            <input type="text" id="produit" name="produit" required="">
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="prix">
+                Prix :
+            </label>
+
+            <input type="number" id="prix" name="prix" min="1" required="">
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="quantite">
+                Quantité :
+            </label>
+
+            <input type="number" id="quantite" name="quantite" min="1" required="">
+
+        </div>
+
+        <br>
+
+
+        <div>
+
+            <label for="categorie">
+                Catégorie :
+            </label>
+
+            <input type="text" id="categorie" name="categorie" required="">
+        </div>
+
+        <br>
+
+        <button type="submit">
+            Calculer
+        </button>
+
+    </form>
+
+
+    <hr><h2>Produit traité avec succès.</h2>
+
+    
+        <h2>Informations du produit</h2>
+
+        <p>
+            Produit :
+            Clavier        </p>
+
+        <p>
+            Prix :
+            150            DH
+        </p>
+
+        <p>
+            Quantité :
+            2        </p>
+
+        <p>
+            Catégorie :
+            Gamming        </p>
+
+        <p>
+            Total :
+            300            DH
+        </p>
+
+    Produit : Clavier (Gamming)<br>
+
+
+</body></html>
